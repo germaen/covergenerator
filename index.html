@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sonic-driven covers</title>
+  <link rel="stylesheet" href="styles/universal.css">
+</head>
+<body>
+  <div class="controls">
+    <h2>What are you feeling?</h2>
+    <div id="moodButtons">
+      <button onclick="setMood('Intense')">Intense</button>
+      <button onclick="setMood('Calm')">Calm</button>
+      <button onclick="setMood('Melancholic')">Melancholic</button>
+      <button onclick="setMood('Warm')">Warm</button>
+      <button onclick="setMood('Somber')">Somber</button>
+    </div>
+
+    <h2>What's the environment?</h2>
+    <div id="atmosphereButtons">
+      <button onclick="setAtmosphere('Edgy')">Edgy</button>
+      <button onclick="setAtmosphere('Dreamy')">Dreamy</button>
+      <button onclick="setAtmosphere('Ethereal')">Ethereal</button>
+      <button onclick="setAtmosphere('Soft')">Soft</button>
+      <button onclick="setAtmosphere('Melancholic')">Melancholic</button>
+      <button onclick="setAtmosphere('Desolate')">Desolate</button>
+    </div>
+  </div>
+
+  <canvas id="albumCanvas" width="600" height="600"></canvas>
+
+  <script src="script/script.js"></script>
+</body>
+</html>
